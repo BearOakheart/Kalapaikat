@@ -1,0 +1,26 @@
+CREATE TABLE [dbo].[Favourites] (
+    [Id]         INT            NOT NULL,
+    [name]       NVARCHAR (50)  NULL,
+    [comments]   NVARCHAR (255) NULL,
+    [spec_regs]  NVARCHAR (255) NULL,
+    [county]     NVARCHAR (255) NULL,
+    [public_acc] NVARCHAR (255) NULL,
+    [access_own] NVARCHAR (255) NULL,
+    [site_wl]    NVARCHAR (255) NULL,
+    [point_x]    NVARCHAR (255) NULL,
+    [point_y]    NVARCHAR (255) NULL,
+    [UserId]     INT            NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
+);
+
+CREATE TABLE [dbo].[Users] (
+    [Id]        INT          IDENTITY (1, 1) NOT NULL,
+    [name]      VARCHAR (50) NOT NULL,
+    [password]  VARCHAR (50) NOT NULL,
+    [user_type] VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+Insert Into Kala.dbo.Users
+Values ('Admin','Admin','Admin')

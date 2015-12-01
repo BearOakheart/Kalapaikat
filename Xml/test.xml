@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<person>
+		<name>mikko</name>
+		<age>2</age>
+	</person>
+	
+	<person>
+		<name>arttu</name>
+		<age>1</age>
+	</person>
+	
+	<person>
+		<name>hippo</name>
+		<age>3</age>
+	</person>
+</root>
