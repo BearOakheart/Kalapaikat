@@ -99,6 +99,18 @@ body p li ul
     background-image: url(../Images/bar_background.png);
     text-shadow: 0.1em 0.1em #333;
 }
+#MoreInfo {
+    font-size: 24px;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+#googleMap {
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 500px;
+}
 
 #Login {
     text-align: right;
