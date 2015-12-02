@@ -10,8 +10,20 @@ public partial class More : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         int passedId = Convert.ToInt32(Request.QueryString["id"]);
+        string name = Request.QueryString["name"];
         string county = Request.QueryString["county"];
-        lblID.Text = county;
-        
+        string longitude = Request.QueryString["longitude"];
+        string latitude = Request.QueryString["latitude"];
+        string fishSpec = Request.QueryString["fishSpec"];
+
+        Session["longitude"] = longitude;
+        Session["latitude"] = latitude;
+
+        lblName.Text = name;
+        lblCouty.Text = county;
+        lblFishSpec.Text = fishSpec;
+        lblLatitude.Text = latitude;
+        lblLongitude.Text = longitude;
+
     }
 }

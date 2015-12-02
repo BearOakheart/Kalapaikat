@@ -14,7 +14,7 @@
                 <asp:BoundField DataField="id" HeaderText="Country" ItemStyle-Width="150" />
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:LinkButton ID="btnGrid" PostBackUrl='<%# "More.aspx?id=" + Eval("id")+"&county="+ Eval("county")+ "&longitude="+ Eval("longitude") +"&latitude="+ Eval("latitude")+"&county="+ Eval("county")%>' runat="server" Text="More"/>
+                        <asp:LinkButton ID="btnGrid" PostBackUrl='<%# "More.aspx?id=" + Eval("id")+"&county="+ Eval("county")+ "&longitude="+ Eval("longitude") +"&latitude="+ Eval("latitude")+"&fishSpec="+ Eval("fishSpec")+"&name="+ Eval("name")%>' runat="server" Text="More"/>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>
