@@ -76,15 +76,6 @@ body p li ul
 .mGrid .pgr a { color: #666; text-decoration: none; }  
 .mGrid .pgr a:hover { color: #000; text-decoration: none; }  
 
-#sidebar
-{
-    float: right;
-    width: 250px;
-    height: 400px;
-    margin: 20px 10px 20px 10px;
-    padding: 10px;
-    border: 2px solid #E3E3E3;
-}
 
 #footer
 {
@@ -104,10 +95,16 @@ body p li ul
     height: 60px;
     border: 3px solid #E3E3E3;
     margin-top: 20px;
+    background: black;
     background-image: url(../Images/bar_background.png);
     text-shadow: 0.1em 0.1em #333;
 }
 
+#Login {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 24px;
+}
 #nav
 {
     list-style: none;
