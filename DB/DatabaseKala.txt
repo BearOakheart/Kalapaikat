@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[Favourites] (
-    [Id]         INT            NOT NULL,
+    [Id]         INT            IDENTITY (1, 1) NOT NULL,
     [name]       NVARCHAR (50)  NULL,
     [comments]   NVARCHAR (255) NULL,
     [spec_regs]  NVARCHAR (255) NULL,
@@ -13,6 +13,7 @@ CREATE TABLE [dbo].[Favourites] (
     PRIMARY KEY CLUSTERED ([Id] ASC),
     FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
 );
+
 
 CREATE TABLE [dbo].[Users] (
     [Id]        INT          IDENTITY (1, 1) NOT NULL,
