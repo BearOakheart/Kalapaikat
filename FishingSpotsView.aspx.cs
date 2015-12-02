@@ -28,29 +28,37 @@ public partial class FishingSpotsView : System.Web.UI.Page
         dt.Columns.Add("latitude", typeof(string));
         dt.Columns.Add("fishSpec", typeof(string));
         dt.Columns.Add("id", typeof(Int32));
+        dt.Columns.Add("accessOwn", typeof(string));
         dt.Columns.Add("specRegs", typeof(string));
         dt.Columns.Add("siteWl", typeof(string));
         dt.Columns.Add("publicAcc", typeof(String));
-        dt.Columns.Add("accessOwn", typeof(string));
+        
         
 
         XmlDocument xdoc = new XmlDocument();
         xdoc.Load(Server.MapPath("Xml/fs.xml"));
         XmlNode a = xdoc.SelectSingleNode("/rows/row");
         int id_ = 0;
+        
 
         foreach (XmlNode node in xdoc.DocumentElement)
         {
+            
             string name = node["name"].InnerText;
             string fish_spec = node["fish_spec"].InnerText;
+
             XmlNode value = a.SelectSingleNode("spec_regs");
             string valueString = value.Attributes["url"].Value;
             Console.WriteLine(valueString);
+
             string county = node["county"].InnerText;
             string latitude = node["point_y"].InnerText;
             string longitude = node["point_x"].InnerText;
-            
-            string siteWl = node.Attributes[0].Value;
+            //string accessOwn = node["access_own"].InnerText;
+            //xdoc.
+
+            //string siteWl = node.Attributes[0].Value;
+
             //string accessOwn = node["access_own"].InnerText;
             //string publicAcc = node["public_acc"].InnerText;
 
@@ -60,7 +68,11 @@ public partial class FishingSpotsView : System.Web.UI.Page
             /**/
             //fs.Add(new FishingSpot(name, county, latitude, longitude, fish_spec, id_));
 
-            dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_, valueString, siteWl);
+
+            dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_, valueString);
+
+  
+
             //, publicAcc,accessOwn,siteWl
             id_++;
 

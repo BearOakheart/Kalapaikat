@@ -15,7 +15,8 @@ public partial class More : System.Web.UI.Page
         string longitude = Request.QueryString["longitude"];
         string latitude = Request.QueryString["latitude"];
         string fishSpec = Request.QueryString["fishSpec"];
-
+        string specRegs = Request.QueryString["specRegs"];
+        string siteWl = Request.QueryString["siteWl"];
         Session["longitude"] = longitude;
         Session["latitude"] = latitude;
 
@@ -24,6 +25,7 @@ public partial class More : System.Web.UI.Page
         lblFishSpec.Text = fishSpec;
         lblLatitude.Text = latitude;
         lblLongitude.Text = longitude;
+        
 
     }
 }
