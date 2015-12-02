@@ -12,10 +12,10 @@ public partial class CreateAccount : System.Web.UI.Page
 
     }
 
-    protected void btnLogin_Click(object sender, EventArgs e)
+    protected void btnCreate_Click(object sender, EventArgs e)
     {
-        string name = txtLogin.Text;
-        string password = txtPassword.Text;
+        string name = textLogin.Text;
+        string password = textPassword.Text;
 
         User user = ConnectionClass.NewUser(name,password);
 
