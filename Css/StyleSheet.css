@@ -32,19 +32,26 @@ body p li ul
 {
     text-align: center;
     float: left;
-    width: 900px;
-    margin: 20px 0 20px 0;
-    padding: 10px;
+    width: 100%;
+    margin: 50px 0 50px 0;
+    height: 550px;
+    overflow: scroll;
 }
 
 .mGrid {   
-   
+    
+    
     width: auto;   
     background-color: #fff;   
     margin: 5px 0 10px 0;   
     border: solid 1px #525252;   
-    border-collapse:collapse;   
+    border-collapse:collapse; 
+    margin-left: auto;
+    margin-right: auto;  
+  
+    
 }  
+
 .mGrid td {   
     padding: 2px;   
     border: solid 1px #c1c1c1;   
@@ -166,3 +173,5 @@ body p li ul
     margin: 0px 0 10px 10px;
     padding: 10px;
 }
+
+
