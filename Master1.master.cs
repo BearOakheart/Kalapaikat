@@ -25,7 +25,7 @@ public partial class Master1 : System.Web.UI.MasterPage
     protected void LinkButton1_Click(object sender, EventArgs e)
     {
         // Käyttäjä kirjautuu sisään
-        if (LinkButton1.Text == "Login")
+        if (LinkButton1.Text == "Login" && Session["Login"] == null)
         {
             Response.Redirect("Login.aspx");
         }

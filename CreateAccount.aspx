@@ -5,22 +5,22 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <table>
         <tr>
-            <td>Login</td>
+            <td>Username</td>
             <td>
-                <asp:TextBox ID="txtLogin" runat="server"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Please type username!" ControlToValidate="txtLogin"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="textLogin" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ValidationGroup="Group2" ErrorMessage="Please select a username!" ControlToValidate="textLogin"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td>Password</td>
             <td>
-                <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Password required" ControlToValidate="txtPassword"></asp:RequiredFieldValidator>
+                <asp:TextBox ID="textPassword" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ValidationGroup="Group2" ErrorMessage="Create password" ControlToValidate="textPassword"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
             <td>
-                <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/><br/>
+                <asp:Button ID="btnCreate" runat="server" Text="Create Account" ValidationGroup="Group2" OnClick="btnCreate_Click"/><br/>
                 <asp:Label ID="lblError" runat="server" Text=""></asp:Label>
             </td>
         </tr>
