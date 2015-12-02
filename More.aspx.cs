@@ -45,6 +45,7 @@ public partial class More : System.Web.UI.Page
         string specRegs = Request.QueryString["specRegs"];
         string siteWl = Request.QueryString["siteWl"];
         
-        ConnectionClass.NewFavorite(name,county, longitude, latitude, UserId,specRegs,siteWl);
+
+        ConnectionClass.NewFavorite(name,county, longitude, latitude, UserId,specRegs,siteWl,fishSpec);
     }
 }

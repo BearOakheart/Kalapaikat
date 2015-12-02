@@ -147,9 +147,9 @@ public static class ConnectionClass
         }
     }
 
-    public static string NewFavorite(string name,string county, string point_x, string point_y, int UserId,string specRegs, string siteWl)
+    public static string NewFavorite(string name,string county, string point_x, string point_y, int UserId,string specRegs, string siteWl, string fishSpec)
     {
-        string query = string.Format("INSERT INTO Kala.dbo.Favourites (name,county,point_x,point_y,UserId,spec_regs,site_wl) VALUES ('{0}','{1}','{2}','{3}','{4}','{5}','{6}')", name,county,point_x,point_y, UserId,specRegs,siteWl);
+        string query = string.Format("INSERT INTO Kala.dbo.Favourites (name,county,point_x,point_y,UserId,spec_regs,site_wl,fishspec) VALUES ('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}')", name,county,point_x,point_y, UserId,specRegs,siteWl,fishSpec);
 
         
         if (conn != null)

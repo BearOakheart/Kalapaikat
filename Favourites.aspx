@@ -23,12 +23,18 @@
 
             <asp:BoundField DataField="point_x" HeaderText="point_x" SortExpression="point_x" />
             <asp:BoundField DataField="point_y" HeaderText="point_y" SortExpression="point_y" />
+            <asp:BoundField DataField="fishspec" HeaderText="Fishes" SortExpression="point_y" />
+            <asp:TemplateField HeaderText="More">
+                    <ItemTemplate>
+                        <asp:Button ID="Button1" runat="server" Text="More" PostBackUrl='<%# "More.aspx?county="+ Eval("county")+ "&longitude="+ Eval("point_x") +"&latitude="+ Eval("point_y")+"&name="+ Eval("name")+"&specRegs="+ Eval("spec_regs")+"&siteWl="+ Eval("site_wl")+"&fishSpec="+ Eval("fishSpec")%>'/>
+                    </ItemTemplate>
+            </asp:TemplateField>
             
         </Columns>
     </asp:GridView>
  
   
-    <asp:SqlDataSource ID="FavouritesDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:KalaConnectionString %>" SelectCommand="SELECT [Id], [name], [spec_regs], [county], [site_wl], [point_x], [point_y] FROM [Favourites] WHERE ([UserId] = @UserId)">
+    <asp:SqlDataSource ID="FavouritesDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:KalaConnectionString %>" SelectCommand="SELECT [Id], [name], [spec_regs], [county], [site_wl], [point_x], [point_y], [fishspec] FROM [Favourites] WHERE ([UserId] = @UserId)">
         <SelectParameters>
             <asp:SessionParameter Name="UserId" SessionField="id" Type="Int32" />
         </SelectParameters>
