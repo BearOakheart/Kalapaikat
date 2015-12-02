@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">    
+    <asp:Label ID="Label1" runat="server"></asp:Label>
     <asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
     <asp:Button ID="Button1" runat="server" Text="Search" OnClick="Button1_Click" />
       <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="mGrid">
@@ -10,9 +11,10 @@
                 <asp:BoundField DataField="name" HeaderText="Name" ItemStyle-Width="150" />
                 <asp:BoundField DataField="county" HeaderText="City" ItemStyle-Width="150" />
                 <asp:BoundField DataField="fishSpec" HeaderText="Country" ItemStyle-Width="150" />
+                <asp:BoundField DataField="id" HeaderText="Country" ItemStyle-Width="150" />
                 <asp:TemplateField>
                     <ItemTemplate>
-                        <asp:Button runat="server" Text="More" CommandArgument=""/>
+                        <asp:LinkButton ID="btnGrid" runat="server" Text="More" OnRowCommand="GridView1_RowCommand" CommandName="MoreInfo" CommandArgument='<%#Eval("id") %>'/>
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>

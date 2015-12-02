@@ -25,14 +25,14 @@ public partial class FishingSpotsView : System.Web.UI.Page
         dt.Columns.Add("longitude", typeof(string));
         dt.Columns.Add("latitude", typeof(string));
         dt.Columns.Add("fishSpec", typeof(string));
-        //dt.Columns.Add("id", typeof(Int32));
+        dt.Columns.Add("id", typeof(Int32));
 
         
 
         XmlDocument xdoc = new XmlDocument();
         xdoc.Load(Server.MapPath("Xml/fs.xml"));
 
-        int x = 0;
+        int id_ = 0;
 
         foreach (XmlNode node in xdoc.DocumentElement)
         {
@@ -42,11 +42,11 @@ public partial class FishingSpotsView : System.Web.UI.Page
             string latitude = node["point_y"].InnerText;
             string longitude = node["point_x"].InnerText;
            
-            fs.Add(new FishingSpot(name, county, latitude, longitude, fish_spec, x));
+            fs.Add(new FishingSpot(name, county, latitude, longitude, fish_spec, id_));
                         
-            dt.Rows.Add(name, county, longitude, latitude, fish_spec);
+            dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_);
 
-            x++;
+            id_++;
 
 
         }
@@ -56,21 +56,6 @@ public partial class FishingSpotsView : System.Web.UI.Page
         GridView1.DataBind();
 
     }
-
-    /*
-    protected void TextBox1_TextChanged(object sender, EventArgs e)
-    {
-        string testi = TextBox1.Text;
-        dt.DefaultView.RowFilter = "fishSpec LIKE " + "'*" + testi + "*'" +
-                                    "OR " +
-                                    "name LIKE " + "'*" + testi + "*'" +
-                                    "OR " +
-                                    "county LIKE " + "'*" + testi + "*'";
-
-        GridView1.DataSource = dt;
-        GridView1.DataBind();
-    }
-    */
     protected void Button1_Click(object sender, EventArgs e)
     {
         string testi = TextBox1.Text;
@@ -83,4 +68,21 @@ public partial class FishingSpotsView : System.Web.UI.Page
         GridView1.DataSource = dt;
         GridView1.DataBind();
     }
+    protected void GridView1_RowCommand(object sender,
+    GridViewCommandEventArgs e)
+    {
+        
+            // Retrieve the row index stored in the 
+            // CommandArgument property.
+            string Recordid = Convert.ToString(e.CommandArgument.ToString());
+                       
+            Response.Redirect("Default2.aspx?recordid=" + Recordid);
+                             
+    }
+    /*
+    protected void btnGrid_Click(object sender, EventArgs e)
+    {
+        
+    }
+    */
 }
