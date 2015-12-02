@@ -25,9 +25,9 @@ public partial class More : System.Web.UI.Page
         lblFishSpec.Text = fishSpec;
         lblLatitude.Text = latitude;
         lblLongitude.Text = longitude;
-        lblSpecRegs.Text = specRegs;
-        lblSiteWl.Text = siteWl;
 
+        HLCatchTimes.NavigateUrl = specRegs;
+        HLAreaInfo.NavigateUrl = siteWl;
         
         
 

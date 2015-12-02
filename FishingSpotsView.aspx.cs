@@ -39,13 +39,13 @@ public partial class FishingSpotsView : System.Web.UI.Page
 
         xdoc.Load(Server.MapPath("Xml/fs.xml"));
 
-        XmlNode a = xdoc.SelectSingleNode("/rows/row");
+        
         //XmlNode b = xdoc.SelectSingleNode("/rows/row");
         int id_ = 0;
         
         foreach (XmlNode node in xdoc.DocumentElement)
         {
-            
+            XmlNode a = xdoc.SelectSingleNode("/rows/row");
             string name = node["name"].InnerText;
             string fish_spec = node["fish_spec"].InnerText;
 
