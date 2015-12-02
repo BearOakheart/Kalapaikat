@@ -30,7 +30,7 @@ public partial class FishingSpotsView : System.Web.UI.Page
         dt.Columns.Add("id", typeof(Int32));
         dt.Columns.Add("specRegs", typeof(string));
         dt.Columns.Add("siteWl", typeof(string));
-        dt.Columns.Add("publicAcc", typeof(string));
+        dt.Columns.Add("publicAcc", typeof(String));
         dt.Columns.Add("accessOwn", typeof(string));
         
 
@@ -43,14 +43,16 @@ public partial class FishingSpotsView : System.Web.UI.Page
         {
             string name = node["name"].InnerText;
             string fish_spec = node["fish_spec"].InnerText;
+            string specRegs = node.Attributes[0].Value;
             string county = node["county"].InnerText;
             string latitude = node["point_y"].InnerText;
             string longitude = node["point_x"].InnerText;
-            string specRegs = node.Attributes[0].Value;
+            
             string siteWl = node.Attributes[0].Value;
+            //string accessOwn = node["access_own"].InnerText;
             //string publicAcc = node["public_acc"].InnerText;
 
-            //string accessOwn = node["access_own"].InnerText;
+
 
 
             /**/
