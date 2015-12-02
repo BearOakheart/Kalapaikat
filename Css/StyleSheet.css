@@ -117,6 +117,14 @@ body p li ul
     padding-right: 50px;
     font-size: 24px;
 }
+#lblLogin {
+    font-size: 14px;
+    text-shadow: none;
+    float: right;
+    padding: 5px;
+    
+}
+
 #nav
 {
     list-style: none;

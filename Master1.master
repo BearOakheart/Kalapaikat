@@ -15,6 +15,7 @@
 
             <div id="wrapper">
                 <div id="banner">
+                     <asp:Label ID="lblLogin" runat="server" ForeColor="Black" Text=""></asp:Label>
                     <asp:ContentPlaceHolder id="head" runat="server">
         
                     </asp:ContentPlaceHolder>
@@ -22,13 +23,16 @@
                     <div id="navigation">
                         <ul id="nav">
                             <li><a href="default.aspx">Home</a></li>
+                            <% if (Session["Login"] != null)
+                               { %>
                             <li><a href="FishingSpotsView.aspx">Fishing Spots</a></li>
                             <li><a href="Favourites.aspx">Favourites</a></li>
+                            <% } %>
                             <li><a href="CreateAccount.aspx">Create Account</a></li>
                         </ul>
                         <div id="Login">
                             
-                            <asp:Label ID="lblLogin" runat="server" ForeColor="White" Text=""></asp:Label>
+                           
                             <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="White" OnClick="LinkButton1_Click">LinkButton</asp:LinkButton>
                         </div>
                     </div>
