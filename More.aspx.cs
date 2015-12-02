@@ -28,4 +28,18 @@ public partial class More : System.Web.UI.Page
         
 
     }
+
+    protected void btnAdd_Click(object sender, EventArgs e)
+    {
+        int passedId = Convert.ToInt32(Request.QueryString["id"]);
+        string name = Request.QueryString["name"];
+        string county = Request.QueryString["county"];
+        string longitude = Request.QueryString["longitude"];
+        string latitude = Request.QueryString["latitude"];
+        string fishSpec = Request.QueryString["fishSpec"];
+        string specRegs = Request.QueryString["specRegs"];
+        string siteWl = Request.QueryString["siteWl"];
+        
+        ConnectionClass.NewFavorite(name,county, longitude, latitude, 2);
+    }
 }

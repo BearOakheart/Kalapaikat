@@ -138,4 +138,22 @@ public static class ConnectionClass
             throw;
         }
     }
+
+    public static string NewFavorite(string name,string county, string point_x, string point_y, int UserId)
+    {
+        string query = string.Format("INSERT INTO Kala.dbo.Favourites (name,county,point_x,point_y,UserId) VALUES ('{0}','{1}','{2}','{3}','2')", name,county,point_x,point_y, UserId);
+
+        
+        if (conn != null)
+        {
+            conn.Close();
+        }
+    
+            conn.Open();
+            command.CommandText = query;
+
+            command.ExecuteScalar();
+            conn.Close();
+            return "New favourite added";     
+    }
 }
