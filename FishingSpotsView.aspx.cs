@@ -11,16 +11,27 @@ using FishingSpots;
 
 public partial class FishingSpotsView : System.Web.UI.Page
 {
+    DataTable dt = new DataTable("FishingSpots");
+    ObservableCollection<FishingSpot> fs = new ObservableCollection<FishingSpot>();
     protected void Page_Load(object sender, EventArgs e)
     {
-        LoadXml();
+        LoadAndCreateDT();
     }
 
-    private void LoadXml()
+    public void LoadAndCreateDT()
     {
+        DataColumn fishCol = dt.Columns.Add("name", typeof(string));
+        dt.Columns.Add("county", typeof(string));
+        dt.Columns.Add("longitude", typeof(string));
+        dt.Columns.Add("latitude", typeof(string));
+        dt.Columns.Add("fishSpec", typeof(string));
+        //dt.Columns.Add("id", typeof(Int32));
+
+        
+
         XmlDocument xdoc = new XmlDocument();
         xdoc.Load(Server.MapPath("Xml/fs.xml"));
-        ObservableCollection<FishingSpot> fs = new ObservableCollection<FishingSpot>();
+
         int x = 0;
 
         foreach (XmlNode node in xdoc.DocumentElement)
@@ -30,14 +41,46 @@ public partial class FishingSpotsView : System.Web.UI.Page
             string county = node["county"].InnerText;
             string latitude = node["point_y"].InnerText;
             string longitude = node["point_x"].InnerText;
-
+           
             fs.Add(new FishingSpot(name, county, latitude, longitude, fish_spec, x));
-            x++;
+                        
+            dt.Rows.Add(name, county, longitude, latitude, fish_spec);
 
-            GridView1.DataSource = fs;
-            GridView1.DataBind();
+            x++;
 
 
         }
+        //dt.DefaultView.RowFilter = "fishSpec = 'Brown Trout'";
+
+        GridView1.DataSource = dt;
+        GridView1.DataBind();
+
+    }
+
+    /*
+    protected void TextBox1_TextChanged(object sender, EventArgs e)
+    {
+        string testi = TextBox1.Text;
+        dt.DefaultView.RowFilter = "fishSpec LIKE " + "'*" + testi + "*'" +
+                                    "OR " +
+                                    "name LIKE " + "'*" + testi + "*'" +
+                                    "OR " +
+                                    "county LIKE " + "'*" + testi + "*'";
+
+        GridView1.DataSource = dt;
+        GridView1.DataBind();
+    }
+    */
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        string testi = TextBox1.Text;
+        dt.DefaultView.RowFilter = "fishSpec LIKE " + "'*" + testi + "*'" +
+                                    "OR " +
+                                    "name LIKE " + "'*" + testi + "*'" +
+                                    "OR " +
+                                    "county LIKE " + "'*" + testi + "*'";
+
+        GridView1.DataSource = dt;
+        GridView1.DataBind();
     }
 }

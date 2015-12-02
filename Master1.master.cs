@@ -36,4 +36,5 @@ public partial class Master1 : System.Web.UI.MasterPage
             Response.Redirect("Default.aspx");
         }
     }
+
 }

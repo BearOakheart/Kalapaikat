@@ -2,8 +2,10 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-      <asp:GridView ID="GridView1" runat="server" Height="198px" AutoGenerateColumns="false">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">    
+    <asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
+    <asp:Button ID="Button1" runat="server" Text="Search" OnClick="Button1_Click" />
+      <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="mGrid">
             <Columns>
                 <asp:BoundField DataField="name" HeaderText="Name" ItemStyle-Width="150" />
                 <asp:BoundField DataField="county" HeaderText="City" ItemStyle-Width="150" />
@@ -15,6 +17,5 @@
                 </asp:TemplateField>
             </Columns>
      </asp:GridView>
-
 </asp:Content>
 
