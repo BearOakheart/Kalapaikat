@@ -8,21 +8,32 @@
     
     <script
 src="http://maps.googleapis.com/maps/api/js">
-</script>
+    </script>
 
     <script>
+        
+        var longitude = '<%= Session["longitude"] %>';
+        var latitude = '<%= Session["latitude"] %>';
+        var myCenter = new google.maps.LatLng(latitude, longitude);
+
         function initialize() {
-            var longitude = '<%= Session["longitude"] %>';
-            var latitude = '<%= Session["latitude"] %>';
+            
             var mapProp = {
-                center: new google.maps.LatLng(latitude, longitude),
+                center: myCenter,
                 zoom: 9,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
             var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+            var marker = new google.maps.Marker({
+                position: myCenter,
+                animation: google.maps.Animation.BOUNCE
+            });
+
+            marker.setMap(map);
         }
         
-        google.maps.event.addDomListener(window, 'load', initialize);   
+        google.maps.event.addDomListener(window, 'load', initialize);
     </script>
 
     <asp:Label ID="Label2" runat="server" Text="Name: "></asp:Label><asp:Label ID="lblName" runat="server" Text=""></asp:Label><br/>
