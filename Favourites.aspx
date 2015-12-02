@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
   
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="FavouritesDataSource" Height="102px" Width="323px">
+    <asp:GridView ID="GridView1" CssClass="mGrid" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="FavouritesDataSource" Height="102px" Width="323px">
         <Columns>
             <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
             <asp:BoundField DataField="spec_regs" HeaderText="spec_regs" SortExpression="spec_regs" />
