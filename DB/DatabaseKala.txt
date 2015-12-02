@@ -22,5 +22,4 @@ CREATE TABLE [dbo].[Users] (
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
-Insert Into Kala.dbo.Users
-Values ('Admin','Admin','Admin')
+Insert Into Kala.dbo.Users Values ('Admin','Admin','Admin')

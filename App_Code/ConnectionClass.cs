@@ -14,6 +14,7 @@ public static class ConnectionClass
 {
     private static SqlConnection conn;
     private static SqlCommand command;
+    private static SqlCommand commandtwo;
 
     static ConnectionClass()
     {
@@ -21,6 +22,8 @@ public static class ConnectionClass
         conn = new SqlConnection(connectionString);
         command = new SqlCommand("",conn);
     }
+
+ 
 
     public static User LoginUser(String login, String password)
     {
@@ -91,5 +94,48 @@ public static class ConnectionClass
         
        
 
+    }
+    public static User NewUser(String login, String password)
+    {
+        string query1 = string.Format("SELECT COUNT(*) FROM Kala.dbo.Users WHERE name ='{0}'", login);
+        command.CommandText = query1;
+
+        if (conn != null)
+        {
+            conn.Close();           
+        }
+
+        bool i = true;
+
+        try
+        {
+           conn.Open();
+           int amoutOfUsers = (int)command.ExecuteScalar();
+           
+
+            if (amoutOfUsers == 0)
+            {
+
+                
+                string query = string.Format("INSERT INTO Kala.dbo.Users VALUES ('{0}', '{1}', 'user')", login, password);
+
+                command.CommandText = query;
+                command.ExecuteScalar();
+
+                User user = new User(login, password, "user");
+                return user;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        catch (Exception)
+        {
+            conn.Close();
+            return null;
+            throw;
+        }
     }
 }
