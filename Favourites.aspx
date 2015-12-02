@@ -12,12 +12,12 @@
             
             <asp:TemplateField HeaderText="Area Info">
                     <ItemTemplate>
-                        <asp:HyperLink ID="myHyperlink" Text="Area-Info" NavigateUrl='<%#Eval("site_wl")%>' runat="server"></asp:HyperLink>
+                        <asp:HyperLink ID="myHyperlink1" Text="Area-Info" NavigateUrl='<%#Eval("site_wl")%>' runat="server"></asp:HyperLink>
                     </ItemTemplate>
             </asp:TemplateField>
             <asp:TemplateField HeaderText="CatchTimes">
                     <ItemTemplate>
-                        <asp:HyperLink ID="myHyperlink" Text="Info" NavigateUrl='<%#Eval("spec_regs")%>' runat="server"></asp:HyperLink>
+                        <asp:HyperLink ID="myHyperlink2" Text="Info" NavigateUrl='<%#Eval("spec_regs")%>' runat="server"></asp:HyperLink>
                     </ItemTemplate>
             </asp:TemplateField>
 
@@ -29,6 +29,9 @@
                         <asp:Button ID="Button1" runat="server" Text="More" PostBackUrl='<%# "More.aspx?county="+ Eval("county")+ "&longitude="+ Eval("point_x") +"&latitude="+ Eval("point_y")+"&name="+ Eval("name")+"&specRegs="+ Eval("spec_regs")+"&siteWl="+ Eval("site_wl")+"&fishSpec="+ Eval("fishSpec")%>'/>
                     </ItemTemplate>
             </asp:TemplateField>
+
+
+
             
         </Columns>
     </asp:GridView>

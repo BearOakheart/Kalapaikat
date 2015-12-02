@@ -164,4 +164,23 @@ public static class ConnectionClass
             conn.Close();
             return "New favourite added";     
     }
+
+    public static string DeleteFavorite(int UserId, int Id)
+    {
+        string query = string.Format("DELETE FROM Kala.dbo.Favourites WHERE UserId,id = '{0}','{1}'",UserId,Id);
+        
+        if (conn != null)
+        {
+            conn.Close();
+        }
+
+        conn.Open();
+        command.CommandText = query;
+
+        command.ExecuteScalar();
+        conn.Close();
+        return "New favourite added";
+        
+    }
+
 }
