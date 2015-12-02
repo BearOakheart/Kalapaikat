@@ -23,7 +23,7 @@
                         <ul id="nav">
                             <li><a href="default.aspx">Home</a></li>
                             <li><a href="FishingSpotsView.aspx">Fishing Spots</a></li>
-                            <li><a href="About.aspx">Favourites</a></li>
+                            <li><a href="Favourites.aspx">Favourites</a></li>
                             <li><a href="CreateAccount.aspx">Create Account</a></li>
                         </ul>
                         <div id="Login">
