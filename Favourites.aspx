@@ -13,6 +13,11 @@
             <asp:BoundField DataField="site_wl" HeaderText="site_wl" SortExpression="site_wl" />
             <asp:BoundField DataField="point_x" HeaderText="point_x" SortExpression="point_x" />
             <asp:BoundField DataField="point_y" HeaderText="point_y" SortExpression="point_y" />
+            <asp:TemplateField>
+                    <ItemTemplate>
+                        <asp:LinkButton ID="btnGrid" runat="server">LinkButton</asp:LinkButton>
+                    </ItemTemplate>
+            </asp:TemplateField>
         </Columns>
     </asp:GridView>
  

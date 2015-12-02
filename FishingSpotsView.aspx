@@ -10,8 +10,7 @@
             <Columns>
                 <asp:BoundField DataField="name" HeaderText="Name" ItemStyle-Width="150" />
                 <asp:BoundField DataField="county" HeaderText="City" ItemStyle-Width="150" />
-                <asp:BoundField DataField="fishSpec" HeaderText="Country" ItemStyle-Width="150" />
-                <asp:BoundField DataField="id" HeaderText="Country" ItemStyle-Width="150" />
+                <asp:BoundField DataField="fishSpec" HeaderText="Fishes" ItemStyle-Width="150" />
                 <asp:TemplateField>
                     <ItemTemplate>
                         <asp:LinkButton ID="btnGrid" PostBackUrl='<%# "More.aspx?id=" + Eval("id")+"&county="+ Eval("county")+ "&longitude="+ Eval("longitude") +"&latitude="+ Eval("latitude")+"&fishSpec="+ Eval("fishSpec")+"&name="+ Eval("name")+"&specRegs="+ Eval("specRegs")+"&siteWl="+ Eval("siteWl")%>' runat="server" Text="More"/>
