@@ -41,6 +41,7 @@ src="http://maps.googleapis.com/maps/api/js">
         <asp:Label ID="Label3" runat="server" Text="Latitude: "></asp:Label><asp:Label ID="lblLatitude" runat="server" Text="Label"></asp:Label><br/>
         <asp:Label ID="Label5" runat="server" Text="Longitude: "></asp:Label><asp:Label ID="lblLongitude" runat="server" Text="Label"></asp:Label><br/>
         <asp:Label ID="Label4" runat="server" Text="Fishes: "></asp:Label><asp:Label ID="lblFishSpec" runat="server" Text="Label"></asp:Label><br/>
+        <asp:Label ID="Label6" runat="server" Text="valueString: "></asp:Label><asp:Label ID="lblValueString" runat="server" Text="Label"></asp:Label><br/>
     </div>
     <div id="googleMap"></div>
 </asp:Content>

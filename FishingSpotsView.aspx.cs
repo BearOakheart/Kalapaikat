@@ -36,14 +36,16 @@ public partial class FishingSpotsView : System.Web.UI.Page
 
         XmlDocument xdoc = new XmlDocument();
         xdoc.Load(Server.MapPath("Xml/fs.xml"));
-
+        XmlNode a = xdoc.SelectSingleNode("/rows/row");
         int id_ = 0;
 
         foreach (XmlNode node in xdoc.DocumentElement)
         {
             string name = node["name"].InnerText;
             string fish_spec = node["fish_spec"].InnerText;
-            string specRegs = node.Attributes[0].Value;
+            XmlNode value = a.SelectSingleNode("spec_regs");
+            string valueString = value.Attributes["url"].Value;
+            Console.WriteLine(valueString);
             string county = node["county"].InnerText;
             string latitude = node["point_y"].InnerText;
             string longitude = node["point_x"].InnerText;
@@ -58,7 +60,7 @@ public partial class FishingSpotsView : System.Web.UI.Page
             /**/
             //fs.Add(new FishingSpot(name, county, latitude, longitude, fish_spec, id_));
 
-            dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_, specRegs, siteWl);
+            dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_, valueString, siteWl);
             //, publicAcc,accessOwn,siteWl
             id_++;
 
