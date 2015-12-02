@@ -12,7 +12,9 @@ using FishingSpots;
 public partial class FishingSpotsView : System.Web.UI.Page
 {
     DataTable dt = new DataTable("FishingSpots");
+
     ObservableCollection<FishingSpot> fs = new ObservableCollection<FishingSpot>();
+
     protected void Page_Load(object sender, EventArgs e)
     {
         LoadAndCreateDT();
@@ -68,21 +70,8 @@ public partial class FishingSpotsView : System.Web.UI.Page
         GridView1.DataSource = dt;
         GridView1.DataBind();
     }
-    protected void GridView1_RowCommand(object sender,
-    GridViewCommandEventArgs e)
-    {
-        
-            // Retrieve the row index stored in the 
-            // CommandArgument property.
-            string Recordid = Convert.ToString(e.CommandArgument.ToString());
-                       
-            Response.Redirect("Default2.aspx?recordid=" + Recordid);
-                             
-    }
-    /*
-    protected void btnGrid_Click(object sender, EventArgs e)
-    {
-        
-    }
-    */
+ 
+    
+ 
+    
 }

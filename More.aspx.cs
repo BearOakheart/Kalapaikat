@@ -9,6 +9,9 @@ public partial class More : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        int passedId = Convert.ToInt32(Request.QueryString["id"]);
+        string county = Request.QueryString["county"];
+        lblID.Text = county;
+        
     }
 }
