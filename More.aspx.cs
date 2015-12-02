@@ -25,12 +25,17 @@ public partial class More : System.Web.UI.Page
         lblFishSpec.Text = fishSpec;
         lblLatitude.Text = latitude;
         lblLongitude.Text = longitude;
+        lblSpecRegs.Text = specRegs;
+        lblSiteWl.Text = siteWl;
+
+        
         
 
     }
 
     protected void btnAdd_Click(object sender, EventArgs e)
     {
+        int UserId = Convert.ToInt32(Session["id"]);
         int passedId = Convert.ToInt32(Request.QueryString["id"]);
         string name = Request.QueryString["name"];
         string county = Request.QueryString["county"];
@@ -40,6 +45,6 @@ public partial class More : System.Web.UI.Page
         string specRegs = Request.QueryString["specRegs"];
         string siteWl = Request.QueryString["siteWl"];
         
-        ConnectionClass.NewFavorite(name,county, longitude, latitude, 2);
+        ConnectionClass.NewFavorite(name,county, longitude, latitude, UserId);
     }
 }

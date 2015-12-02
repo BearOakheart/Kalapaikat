@@ -23,6 +23,7 @@ public partial class CreateAccount : System.Web.UI.Page
         {
             Session["Login"] = user.Login;
             Session["type"] = user.Type;
+            Session["id"] = user.Id;
 
             Response.Redirect("Default.aspx");
         }

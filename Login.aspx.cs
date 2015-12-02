@@ -20,6 +20,7 @@ public partial class Login : System.Web.UI.Page
             // tallenna muuttujat sessioon
             Session["Login"] = user.Login;
             Session["type"] = user.Type;
+            Session["id"] = user.Id;
 
             Response.Redirect("Default.aspx");
         }

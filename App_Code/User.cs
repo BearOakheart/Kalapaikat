@@ -21,11 +21,4 @@ public class User
         Type = type;
     }
 
-    public User(string login, string password, string type)
-    {
-        Login = login;
-        Password = password;
-        Type = type;
-    }
-
 }

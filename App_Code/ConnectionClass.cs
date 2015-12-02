@@ -54,17 +54,21 @@ public static class ConnectionClass
                     // Salasanat täsmää 
                     // Hae loput käyttäjän tidot databasesta.
 
-                    query = string.Format("SELECT user_type FROM Users WHERE name ='{0}'", login);
+                    query = string.Format("SELECT user_type,id FROM Users WHERE name ='{0}'", login);
                     command.CommandText = query;
 
                     SqlDataReader reader = command.ExecuteReader();
+
+
+
                     User user = null;
 
                     while (reader.Read())
                     {
                         string type = reader.GetString(0);
+                        int id = reader.GetInt32(1);
 
-                        user = new User(login, password, type);
+                        user = new User(id,login, password, type);
 
                     }
                     return user;
@@ -105,8 +109,7 @@ public static class ConnectionClass
             conn.Close();           
         }
 
-        bool i = true;
-
+      
         try
         {
            conn.Open();
@@ -122,7 +125,12 @@ public static class ConnectionClass
                 command.CommandText = query;
                 command.ExecuteScalar();
 
-                User user = new User(login, password, "user");
+                string query2 = string.Format("SELECT id FROM Kala.dbo.Users WHERE name ='{0}'",login);
+                command.CommandText = query2;
+                int id_ = (int)command.ExecuteScalar(); 
+
+
+                User user = new User(id_,login, password, "user");
                 return user;
             }
             else
@@ -141,7 +149,7 @@ public static class ConnectionClass
 
     public static string NewFavorite(string name,string county, string point_x, string point_y, int UserId)
     {
-        string query = string.Format("INSERT INTO Kala.dbo.Favourites (name,county,point_x,point_y,UserId) VALUES ('{0}','{1}','{2}','{3}','2')", name,county,point_x,point_y, UserId);
+        string query = string.Format("INSERT INTO Kala.dbo.Favourites (name,county,point_x,point_y,UserId) VALUES ('{0}','{1}','{2}','{3}','{4}')", name,county,point_x,point_y, UserId);
 
         
         if (conn != null)
@@ -155,5 +163,12 @@ public static class ConnectionClass
             command.ExecuteScalar();
             conn.Close();
             return "New favourite added";     
+    }
+    public static string SearchById(int id)
+    {
+        string query = string.Format("SELECT * Kala.dbo.Favourites WHERE id = '{0}')", id);
+
+        return "s";
+
     }
 }

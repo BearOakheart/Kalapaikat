@@ -41,7 +41,9 @@ src="http://maps.googleapis.com/maps/api/js">
         <asp:Label ID="Label3" runat="server" Text="Latitude: "></asp:Label><asp:Label ID="lblLatitude" runat="server" Text=""></asp:Label><br/>
         <asp:Label ID="Label5" runat="server" Text="Longitude: "></asp:Label><asp:Label ID="lblLongitude" runat="server" Text=""></asp:Label><br/>
         <asp:Label ID="Label4" runat="server" Text="Fishes: "></asp:Label><asp:Label ID="lblFishSpec" runat="server" Text=""></asp:Label><br/>
-        <asp:Button ID="btnAdd" runat="server" Text="Add to favourites" OnClick="btnAdd_Click" />
+        <asp:Label ID="Label6" runat="server" Text="SpecRegs: "></asp:Label><asp:Label ID="lblSpecRegs" runat="server" Text=""></asp:Label><br/>
+        <asp:Label ID="Label7" runat="server" Text="SiteWl: "></asp:Label><asp:Label ID="lblSiteWl" runat="server" Text=""></asp:Label><br/>
+        <asp:LinkButton ID="btnAdd" runat="server" Text="Add to favourites" OnClick="btnAdd_Click" />
     </div>
     <div id="googleMap"></div>
 </asp:Content>
