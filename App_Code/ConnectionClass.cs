@@ -164,11 +164,4 @@ public static class ConnectionClass
             conn.Close();
             return "New favourite added";     
     }
-    public static string SearchById(int id)
-    {
-        string query = string.Format("SELECT * Kala.dbo.Favourites WHERE id = '{0}')", id);
-
-        return "s";
-
-    }
 }
