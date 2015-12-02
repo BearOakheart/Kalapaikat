@@ -28,7 +28,10 @@ public partial class FishingSpotsView : System.Web.UI.Page
         dt.Columns.Add("latitude", typeof(string));
         dt.Columns.Add("fishSpec", typeof(string));
         dt.Columns.Add("id", typeof(Int32));
-
+        dt.Columns.Add("specRegs", typeof(string));
+        dt.Columns.Add("siteWl", typeof(string));
+        dt.Columns.Add("publicAcc", typeof(string));
+        dt.Columns.Add("accessOwn", typeof(string));
         
 
         XmlDocument xdoc = new XmlDocument();
@@ -43,11 +46,18 @@ public partial class FishingSpotsView : System.Web.UI.Page
             string county = node["county"].InnerText;
             string latitude = node["point_y"].InnerText;
             string longitude = node["point_x"].InnerText;
-           
-            fs.Add(new FishingSpot(name, county, latitude, longitude, fish_spec, id_));
-                        
-            dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_);
+            string specRegs = node.Attributes[0].Value;
+            string siteWl = node.Attributes[0].Value;
+            //string publicAcc = node["public_acc"].InnerText;
 
+            //string accessOwn = node["access_own"].InnerText;
+
+
+            /**/
+            //fs.Add(new FishingSpot(name, county, latitude, longitude, fish_spec, id_));
+
+            dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_, specRegs, siteWl);
+            //, publicAcc,accessOwn,siteWl
             id_++;
 
 
