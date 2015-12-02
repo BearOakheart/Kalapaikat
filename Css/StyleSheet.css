@@ -125,6 +125,14 @@ body p li ul
     
 }
 
+#LoginTable {
+    text-align: left;
+  
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 #nav
 {
     list-style: none;

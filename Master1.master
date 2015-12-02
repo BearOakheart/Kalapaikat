@@ -28,7 +28,10 @@
                             <li><a href="FishingSpotsView.aspx">Fishing Spots</a></li>
                             <li><a href="Favourites.aspx">Favourites</a></li>
                             <% } %>
-                            <li><a href="CreateAccount.aspx">Create Account</a></li>
+                            <% if (Session["Login"] == null)
+                               { %>
+                            <li><a href="CreateAccount.aspx">Register</a></li>
+                                <% } %>
                         </ul>
                         <div id="Login">
                             

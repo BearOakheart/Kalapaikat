@@ -3,9 +3,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-     <table>
+     <table id="LoginTable">
         <tr>
-            <td>Login</td>
+            <td>Username</td>
             <td>
                 <asp:TextBox ID="txtLogin" runat="server"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ValidationGroup="Group3" runat="server" ErrorMessage="Please type username!" ControlToValidate="txtLogin"></asp:RequiredFieldValidator>
