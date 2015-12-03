@@ -9,7 +9,7 @@
       <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="false" CssClass="mGrid">
             <Columns>
                 <asp:BoundField DataField="name" HeaderText="Name" ItemStyle-Width="150" />
-                <asp:BoundField DataField="county" HeaderText="City" ItemStyle-Width="150" />
+                <asp:BoundField DataField="county" HeaderText="County" ItemStyle-Width="150" />
                 <asp:BoundField DataField="fishSpec" HeaderText="Fishes" ItemStyle-Width="150" />
                 <asp:TemplateField>
                     <ItemTemplate>
