@@ -7,8 +7,8 @@
   
     <asp:GridView ID="GridView1" CssClass="mGrid" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="FavouritesDataSource" Height="102px" Width="323px">
         <Columns>
-            <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />           
-            <asp:BoundField DataField="county" HeaderText="county" SortExpression="county" />
+            <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />           
+            <asp:BoundField DataField="county" HeaderText="County" SortExpression="county" />
             
             <asp:TemplateField HeaderText="Area Info">
                     <ItemTemplate>
@@ -21,8 +21,8 @@
                     </ItemTemplate>
             </asp:TemplateField>
 
-            <asp:BoundField DataField="point_x" HeaderText="point_x" SortExpression="point_x" />
-            <asp:BoundField DataField="point_y" HeaderText="point_y" SortExpression="point_y" />
+            <asp:BoundField DataField="point_x" HeaderText="Point_x" SortExpression="point_x" />
+            <asp:BoundField DataField="point_y" HeaderText="Point_y" SortExpression="point_y" />
             <asp:BoundField DataField="fishspec" HeaderText="Fishes" SortExpression="point_y" />
             <asp:TemplateField HeaderText="More">
                     <ItemTemplate>
