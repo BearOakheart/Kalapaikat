@@ -14,7 +14,7 @@
         <tr>
             <td>Password</td>
             <td>
-                <asp:TextBox ID="textPassword" runat="server"></asp:TextBox>
+                <asp:TextBox ID="textPassword" TextMode="password" runat="server"></asp:TextBox>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ValidationGroup="Group2" ErrorMessage="Create password" ControlToValidate="textPassword"></asp:RequiredFieldValidator>
             </td>
         </tr>

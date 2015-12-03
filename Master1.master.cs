@@ -12,7 +12,7 @@ public partial class Master1 : System.Web.UI.MasterPage
         // Tarkistetaan onko käyttäjä kirjautunut sisään
         if (Session["login"] != null)
         {
-            lblLogin.Text = "Logged in as " + Session["id"].ToString();
+            lblLogin.Text = "Logged in as " + Session["Login"].ToString();
             lblLogin.Visible = true;
             LinkButton1.Text = "Logout";
         }

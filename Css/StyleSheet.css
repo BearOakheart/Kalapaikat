@@ -58,7 +58,7 @@ body p li ul
 .mGrid th {   
     padding: 4px 2px;   
     color: #fff;   
-    background: #424242 url(grd_head.png) repeat-x top;   
+    background: #424242;   
     border-left: solid 1px #525252;   
     font-size: 0.9em;   
 }  
@@ -95,7 +95,7 @@ body p li ul
     height: 60px;
     border: 3px solid #E3E3E3;
     margin-top: 20px;
-    background: black;
+    #background: #383838 ;
     background-image: url(../Images/bar_background.png);
     text-shadow: 0.1em 0.1em #333;
 }
@@ -179,22 +179,6 @@ body p li ul
 }
 
 
-.imgLeft
-{
-    float: left;
-    width: 240px;
-    height: 150px;
-    margin: 0px 10px 10px 0;
-    padding: 10px;
-}
 
-.imgRight
-{
-    float: right;
-    width: 200px;
-    height: 250px;
-    margin: 0px 0 10px 10px;
-    padding: 10px;
-}
 
 
