@@ -1,7 +1,7 @@
 ﻿body
 {
     font-family: 'lucida grande' ,tahoma,verdana,arial,sans-serif;
-    background-image: url('../Images/background.jpg') !important;
+   # background-image: url('../Images/background.jpg') !important;
 }
 
 body p li ul
@@ -10,10 +10,17 @@ body p li ul
     line-height: 1.28;
 }
 
+
 #wrapper
 {
     width: 1080px;
-    background-color: white;
+    background-color: transparent;
+
+    background-color: rgba(255, 255, 255, 0.7);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000); /* IE6–IE9 */
+
+zoom: 1;
     margin: 0 auto;
     padding: 10px;
     border: 5px solid #dedede;    

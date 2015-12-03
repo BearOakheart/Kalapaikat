@@ -7,9 +7,33 @@
     <title>Fishing spots</title>
     <link rel="stylesheet" type="text/css" href="Css/StyleSheet.css" />
     <script type="text/javascript" src="../JavaScript/jquery-1.3.2.min.js"></script>
-   
+   <script>
+       // kommentoi jos haluaa kuvarummun pois, ota samalla css body elementistä kommentti pois
+       $(document).ready(function(){
+           var header = $('body');
+              
+           var backgrounds = new Array(
+               'url(/Images/background.jpg)'
+               , 'url(/Images/sailing_vessel.jpg)'
+               , 'url(/Images/summer-fishing.jpg)'
+               , 'url(/Images/fishingIcy.jpg)'
+           );
+              
+           var current = 0;
+              
+           function nextBackground() {
+               current++;
+               current = current % backgrounds.length;
+               header.css('background-image', backgrounds[current]);
+           }
+           setInterval(nextBackground, 7000);
+              
+           header.css('background-image', backgrounds[0]);
+       });
+   </script>
     </head>
 <body style="background-color: #99CCFF">
+
     <form id="form1" runat="server">
         
 
