@@ -69,6 +69,7 @@
       <name>Cassadaga Creek</name>
       <fish_spec>Smallmouth Bass - Muskellunge - Northern Pike</fish_spec>
       <comments>None</comments>
+      <spec_regs url="http://www.dec.ny.gov/outdoor/31420.html"/>
       <county>Chautauqua</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
@@ -271,6 +272,7 @@
       <county>Erie</county>
       <public_acc>Shore Fishing - Boat Launch (Hand Launch)</public_acc>
       <access_own>Beaver Island State Park</access_own>
+      <site_wl url="http://www.dec.ny.gov/outdoor/23883.html"/>
       <point_x>-78.956061065</point_x>
       <point_y>42.959058568</point_y>
       <location latitude="42.959058568" longitude="-78.956061065" needs_recoding="false"/>
@@ -443,6 +445,7 @@
       <county>Niagara</county>
       <public_acc>Shore Fishing - Boat Launch (Trailer Improved)</public_acc>
       <access_own>West Canal County Park</access_own>
+      <site_wl url="http://www.dec.ny.gov/outdoor/23883.html"/>
       <point_x>-78.821887614</point_x>
       <point_y>43.051960018</point_y>
       <location latitude="43.051960018" longitude="-78.821887614" needs_recoding="false"/>
@@ -470,6 +473,7 @@
       <county>Cattaraugus</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Allegany State Park</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-78.811538299</point_x>
       <point_y>42.011411954</point_y>
       <location latitude="42.011411954" longitude="-78.811538299" needs_recoding="false"/>
@@ -511,6 +515,7 @@
       <county>Cattaraugus</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Allegany State Park</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-78.723454083</point_x>
       <point_y>42.033562728</point_y>
       <location latitude="42.033562728" longitude="-78.723454083" needs_recoding="false"/>
@@ -582,6 +587,7 @@
       <county>Erie</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Emery County Park</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-78.587049709</point_x>
       <point_y>42.715571068</point_y>
       <location latitude="42.715571068" longitude="-78.587049709" needs_recoding="false"/>
@@ -1418,6 +1424,7 @@
       <county>Seneca</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Canoga Marsh Wildlife Management Area (DEC)</access_own>
+      <site_wl url="http://www.dec.ny.gov/outdoor/23906.html"/>
       <point_x>-76.749289332</point_x>
       <point_y>42.862553473</point_y>
       <location latitude="42.862553473" longitude="-76.749289332" needs_recoding="false"/>
@@ -2485,6 +2492,7 @@
       <county>Jefferson</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Winona State Forest (DEC)</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/r7otselripfr.pdf"/>
       <point_x>-75.946453998</point_x>
       <point_y>43.735181544</point_y>
       <location latitude="43.735181544" longitude="-75.946453998" needs_recoding="false"/>
@@ -2746,6 +2754,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/r7otselripfr.pdf"/>
       <point_x>-75.780647035</point_x>
       <point_y>43.352947226</point_y>
       <location latitude="43.352947226" longitude="-75.780647035" needs_recoding="false"/>
@@ -2758,6 +2767,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/r7otselripfr.pdf"/>
       <point_x>-75.774899494</point_x>
       <point_y>43.361258892</point_y>
       <location latitude="43.361258892" longitude="-75.774899494" needs_recoding="false"/>
@@ -3092,6 +3102,7 @@
       <county>Madison</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.483751226</point_x>
       <point_y>42.927563542</point_y>
       <location latitude="42.927563542" longitude="-75.483751226" needs_recoding="false"/>
@@ -3248,6 +3259,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.40071171</point_x>
       <point_y>43.032236263</point_y>
       <location latitude="43.032236263" longitude="-75.40071171" needs_recoding="false"/>
@@ -3259,6 +3271,7 @@
       <county>Lewis</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.399831197</point_x>
       <point_y>43.83628139</point_y>
       <location latitude="43.83628139" longitude="-75.399831197" needs_recoding="false"/>
@@ -3330,6 +3343,7 @@
       <county>Lewis</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/r7otselripfr.pdf"/>
       <point_x>-75.381258869</point_x>
       <point_y>43.833421038</point_y>
       <location latitude="43.833421038" longitude="-75.381258869" needs_recoding="false"/>
@@ -3341,6 +3355,7 @@
       <county>Lewis</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.368206585</point_x>
       <point_y>43.822436497</point_y>
       <location latitude="43.822436497" longitude="-75.368206585" needs_recoding="false"/>
@@ -3382,6 +3397,7 @@
       <county>Lewis</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.330775915</point_x>
       <point_y>43.570249921</point_y>
       <location latitude="43.570249921" longitude="-75.330775915" needs_recoding="false"/>
@@ -3408,6 +3424,7 @@
       <county>Oneida</county>
       <public_acc>Boat Launch (Hand Launch)</public_acc>
       <access_own>DEC</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.325662919</point_x>
       <point_y>43.16536357</point_y>
       <location latitude="43.16536357" longitude="-75.325662919" needs_recoding="false"/>
@@ -3434,6 +3451,7 @@
       <county>Lewis</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.321558836</point_x>
       <point_y>43.54894534</point_y>
       <location latitude="43.54894534" longitude="-75.321558836" needs_recoding="false"/>
@@ -3446,6 +3464,7 @@
       <county>Lewis</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.319019606</point_x>
       <point_y>43.555043775</point_y>
       <location latitude="43.555043775" longitude="-75.319019606" needs_recoding="false"/>
@@ -3458,6 +3477,7 @@
       <county>Lewis</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.30897245</point_x>
       <point_y>43.536918159</point_y>
       <location latitude="43.536918159" longitude="-75.30897245" needs_recoding="false"/>
@@ -3470,6 +3490,7 @@
       <county>Lewis</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.3076741</point_x>
       <point_y>43.53254981</point_y>
       <location latitude="43.53254981" longitude="-75.3076741" needs_recoding="false"/>
@@ -3494,6 +3515,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.291436042</point_x>
       <point_y>43.504477636</point_y>
       <location latitude="43.504477636" longitude="-75.291436042" needs_recoding="false"/>
@@ -3506,6 +3528,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.285720994</point_x>
       <point_y>43.507695701</point_y>
       <location latitude="43.507695701" longitude="-75.285720994" needs_recoding="false"/>
@@ -3548,6 +3571,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.274035848</point_x>
       <point_y>43.493377775</point_y>
       <location latitude="43.493377775" longitude="-75.274035848" needs_recoding="false"/>
@@ -3605,6 +3629,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.249004417</point_x>
       <point_y>43.479243148</point_y>
       <location latitude="43.479243148" longitude="-75.249004417" needs_recoding="false"/>
@@ -3675,6 +3700,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.211095217</point_x>
       <point_y>43.443823877</point_y>
       <location latitude="43.443823877" longitude="-75.211095217" needs_recoding="false"/>
@@ -3782,6 +3808,7 @@
       <county>Oneida</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-75.131830064</point_x>
       <point_y>43.396659736</point_y>
       <location latitude="43.396659736" longitude="-75.131830064" needs_recoding="false"/>
@@ -4619,6 +4646,7 @@
       <county>St. Lawrence</county>
       <public_acc>Boat Launch (Trailer Improved)</public_acc>
       <access_own>DEC</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrcharlotte.pdf"/>
       <point_x>-74.786280341</point_x>
       <point_y>44.822716152</point_y>
       <location latitude="44.822716152" longitude="-74.786280341" needs_recoding="false"/>
@@ -4655,6 +4683,7 @@
       <county>Herkimer</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrcharlotte.pdf"/>
       <point_x>-74.762287056</point_x>
       <point_y>43.145357176</point_y>
       <location latitude="43.145357176" longitude="-74.762287056" needs_recoding="false"/>
@@ -4694,6 +4723,7 @@
       <county>Sullivan</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Thompson Park (Municipal)</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/cattcreeksteelhead.pdf"/>
       <point_x>-74.709546114</point_x>
       <point_y>41.721313192</point_y>
       <location latitude="41.721313192" longitude="-74.709546114" needs_recoding="false"/>
@@ -4779,7 +4809,11 @@
       <name>Timmerman Creek</name>
       <fish_spec>Brown Trout*</fish_spec>
       <comments>None</comments>
+      <spec_regs url="http://www.dec.ny.gov/outdoor/31440.html"/>
       <county>Montgomery</county>
+      <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
+      <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrwestbranch.pdf"/>
       <point_x>-74.683940305</point_x>
       <point_y>43.017229195</point_y>
       <location latitude="43.017229195" longitude="-74.683940305" needs_recoding="false"/>
@@ -4788,6 +4822,7 @@
       <name>Schenevus Creek</name>
       <fish_spec>Brook Trout - Brown Trout*</fish_spec>
       <comments>None</comments>
+      <spec_regs url="http://www.dec.ny.gov/outdoor/31440.html"/>
       <county>Otsego</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
@@ -4828,6 +4863,9 @@
       <comments>NYCDEP permit required (1-800-574-LAND).</comments>
       <spec_regs url="http://www.dec.ny.gov/outdoor/31440.html"/>
       <county>Delaware</county>
+      <public_acc>Shore Fishing</public_acc>
+      <access_own>Neversink River Unique Area (DEC)</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.629618591</point_x>
       <point_y>42.151605667</point_y>
       <location latitude="42.151605667" longitude="-74.629618591" needs_recoding="false"/>
@@ -4841,6 +4879,7 @@
       <county>Montgomery</county>
       <public_acc>Shore Fishing - Boat Launch (Hand Launch)</public_acc>
       <access_own>Canal Corporation</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.622224107</point_x>
       <point_y>42.938432107</point_y>
       <location latitude="42.938432107" longitude="-74.622224107" needs_recoding="false"/>
@@ -4877,6 +4916,7 @@
         Smallmouth Bass - Largemouth Bass - Sunfish - Yellow Perch - Crappie - Tiger Musky* - Northern Pike - Walleye - Carp
       </fish_spec>
       <comments>None</comments>
+      <spec_regs url="http://www.dec.ny.gov/outdoor/31496.html"/>
       <county>Montgomery</county>
       <public_acc>Boat Launch (Trailer Improved)</public_acc>
       <access_own>DEC</access_own>
@@ -4972,6 +5012,7 @@
       <county>Montgomery</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Canal Corporation</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.577729666</point_x>
       <point_y>42.909569765</point_y>
       <location latitude="42.909569765" longitude="-74.577729666" needs_recoding="false"/>
@@ -5190,6 +5231,7 @@
       <fish_spec>Brown Trout*</fish_spec>
       <comments>None</comments>
       <county>Fulton</county>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.362197066</point_x>
       <point_y>43.050413222</point_y>
       <location latitude="43.050413222" longitude="-74.362197066" needs_recoding="false"/>
@@ -5377,6 +5419,7 @@
       <comments>None</comments>
       <spec_regs url="http://www.dec.ny.gov/outdoor/31444.html"/>
       <county>Franklin</county>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.293337254</point_x>
       <point_y>44.918344554</point_y>
       <location latitude="44.918344554" longitude="-74.293337254" needs_recoding="false"/>
@@ -5416,6 +5459,7 @@
       <county>Montgomery</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Canal Corporation</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.286870044</point_x>
       <point_y>42.946329135</point_y>
       <location latitude="42.946329135" longitude="-74.286870044" needs_recoding="false"/>
@@ -5544,6 +5588,7 @@
       <county>Montgomery</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Canal Corporation</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.210192397</point_x>
       <point_y>42.947341094</point_y>
       <location latitude="42.947341094" longitude="-74.210192397" needs_recoding="false"/>
@@ -5581,6 +5626,7 @@
       <county>Montgomery</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Canal Corporation</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.191616867</point_x>
       <point_y>42.93408478</point_y>
       <location latitude="42.93408478" longitude="-74.191616867" needs_recoding="false"/>
@@ -5725,6 +5771,7 @@
       <county>Schenectady</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Canal Corporation</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.04037682</point_x>
       <point_y>42.878643506</point_y>
       <location latitude="42.878643506" longitude="-74.04037682" needs_recoding="false"/>
@@ -5794,6 +5841,7 @@
       <county>Schenectady</county>
       <public_acc>Shore Fishing - Boat Launch (Trailer Improved)</public_acc>
       <access_own>Rotterdam Kiwanis Park</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-74.013910374</point_x>
       <point_y>42.846980416</point_y>
       <location latitude="42.846980416" longitude="-74.013910374" needs_recoding="false"/>
@@ -5853,6 +5901,7 @@
       <county>Schenectady</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Maalwyck Park (Municipal)</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.991576443</point_x>
       <point_y>42.832453089</point_y>
       <location latitude="42.832453089" longitude="-73.991576443" needs_recoding="false"/>
@@ -6279,6 +6328,7 @@
       <county>Schenectady</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Aqueduct Park (Municipal)</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.890805343</point_x>
       <point_y>42.849380629</point_y>
       <location latitude="42.849380629" longitude="-73.890805343" needs_recoding="false"/>
@@ -6358,6 +6408,7 @@
       <county>Clinton</county>
       <public_acc>Shore Fishing - Public Fishing Rights</public_acc>
       <access_own>Public Easement</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.877224739</point_x>
       <point_y>44.884344232</point_y>
       <location latitude="44.884344232" longitude="-73.877224739" needs_recoding="false"/>
@@ -6538,6 +6589,7 @@
       <comments>None</comments>
       <county>Schenectady</county>
       <public_acc>Shore Fishing - Boat Launch (Trailer Improved)</public_acc>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <access_own>Canal Corporation</access_own>
       <point_x>-73.847398524</point_x>
       <point_y>42.803211429</point_y>
@@ -6724,6 +6776,7 @@
       <county>Albany</county>
       <public_acc>Shore Fishing - Boat Launch (Trailer Improved)</public_acc>
       <access_own>Colonie Town Park (Municipal)</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.747839719</point_x>
       <point_y>42.799478219</point_y>
       <location latitude="42.799478219" longitude="-73.747839719" needs_recoding="false"/>
@@ -6795,6 +6848,7 @@
       <comments>None</comments>
       <spec_regs url="http://www.dec.ny.gov/outdoor/31478.html"/>
       <county>Putnam</county>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.732240069</point_x>
       <point_y>41.447425921</point_y>
       <location latitude="41.447425921" longitude="-73.732240069" needs_recoding="false"/>
@@ -6823,6 +6877,7 @@
       <county>Albany</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Canal Corporation</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.729902122</point_x>
       <point_y>42.819782908</point_y>
       <location latitude="42.819782908" longitude="-73.729902122" needs_recoding="false"/>
@@ -6975,6 +7030,7 @@
       <comments>None</comments>
       <spec_regs url="http://www.dec.ny.gov/outdoor/31478.html"/>
       <county>Putnam</county>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.614916399</point_x>
       <point_y>41.393534351</point_y>
       <location latitude="41.393534351" longitude="-73.614916399" needs_recoding="false"/>
@@ -7054,6 +7110,7 @@
       <fish_spec>Brook Trout - Brown Trout*</fish_spec>
       <comments>None</comments>
       <county>Clinton</county>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrcharlotte.pdf"/>
       <point_x>-73.541982496</point_x>
       <point_y>44.593677719</point_y>
       <location latitude="44.593677719" longitude="-73.541982496" needs_recoding="false"/>
@@ -7089,6 +7146,7 @@
       <fish_spec>Brook Trout - Brown Trout*</fish_spec>
       <comments>None</comments>
       <county>Essex</county>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.47960261</point_x>
       <point_y>44.052709263</point_y>
       <location latitude="44.052709263" longitude="-73.47960261" needs_recoding="false"/>
@@ -7101,6 +7159,7 @@
       <county>Nassau</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Massapequa County Preserve (County Park)</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.459834106</point_x>
       <point_y>40.682980209</point_y>
       <location latitude="40.682980209" longitude="-73.459834106" needs_recoding="false"/>
@@ -7235,6 +7294,7 @@
       <fish_spec>Brown Trout*</fish_spec>
       <comments>None</comments>
       <county>Rensselear</county>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.344200937</point_x>
       <point_y>42.926661166</point_y>
       <location latitude="42.926661166" longitude="-73.344200937" needs_recoding="false"/>
@@ -7331,6 +7391,7 @@
       <county>Suffolk</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Connetquot River State Park</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.152134173</point_x>
       <point_y>40.748092416</point_y>
       <location latitude="40.748092416" longitude="-73.152134173" needs_recoding="false"/>
@@ -7343,6 +7404,7 @@
       <county>Suffolk</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>DEC</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.15091644</point_x>
       <point_y>40.747553066</point_y>
       <location latitude="40.747553066" longitude="-73.15091644" needs_recoding="false"/>
@@ -7355,6 +7417,7 @@
       <county>Suffolk</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>DEC</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-73.145375194</point_x>
       <point_y>40.747683934</point_y>
       <location latitude="40.747683934" longitude="-73.145375194" needs_recoding="false"/>
@@ -7367,6 +7430,7 @@
       <county>Suffolk</county>
       <public_acc>Shore Fishing</public_acc>
       <access_own>Southhaven County Park</access_own>
+      <site_wl url="http://www.dec.ny.gov/docs/fish_marine_pdf/pfrneversink.pdf"/>
       <point_x>-72.887817171</point_x>
       <point_y>40.809070751</point_y>
       <location latitude="40.809070751" longitude="-72.887817171" needs_recoding="false"/>

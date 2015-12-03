@@ -9,6 +9,7 @@ CREATE TABLE [dbo].[Favourites] (
     [site_wl]    NVARCHAR (255) NULL,
     [point_x]    NVARCHAR (255) NULL,
     [point_y]    NVARCHAR (255) NULL,
+	[fishspec]    NVARCHAR (255) NULL,
     [UserId]     INT            NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC),
     FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])

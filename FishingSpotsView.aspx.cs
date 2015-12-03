@@ -12,6 +12,7 @@ using FishingSpots;
 public partial class FishingSpotsView : System.Web.UI.Page
 {
     DataTable dt = new DataTable("FishingSpots");
+   
 
     ObservableCollection<FishingSpot> fs = new ObservableCollection<FishingSpot>();
 
@@ -42,29 +43,62 @@ public partial class FishingSpotsView : System.Web.UI.Page
         
         //XmlNode b = xdoc.SelectSingleNode("/rows/row");
         int id_ = 0;
+        int apu = 1;
         
         foreach (XmlNode node in xdoc.DocumentElement)
         {
+
+           // if (apu >= 5)
+           // {
+           //      apu = 1;
+           // }
+          // if (siteWl == null || apu == 20)
+          //  {
+          //      siteWl = "test";
+          //      apu++;
+          //  }
+           
+
+
+           // if (node.SelectSingleNode("/rows/row[" + apu + "]/site_wl").Attributes["url"].Value == null)
+           //{
+           //    node.SelectSingleNode("/rows/row[" + apu + "]/site_wl").Attributes["url"].Value = "tyhja";
+           //     apu++;
+           // }
+
+
+            string specRegs = node.SelectSingleNode("/rows/row/spec_regs").Attributes["url"].Value;
+            //string siteWl = node["/rows/row/site_wl"].Attributes["url"].Value;
+            
+             string siteWl = node.SelectSingleNode("/rows/row[" + apu + "]/site_wl").Attributes["url"].Value;
+
+             
+
+
             XmlNode a = xdoc.SelectSingleNode("/rows/row");
             string name = node["name"].InnerText;
             string fish_spec = node["fish_spec"].InnerText;
 
-            XmlNode value1 = a.SelectSingleNode("spec_regs");
+            //XmlNode value1 = a.SelectSingleNode("spec_regs");
+            //
+            //string specRegs = value1.Attributes["url"].Value;
 
-            string specRegs = value1.Attributes["url"].Value;
-
-            XmlNode value2 = a.SelectSingleNode("site_wl");
-            string siteWl = value2.Attributes["url"].Value;
+            //XmlNode value2 = a.SelectSingleNode("site_wl");
+            //string siteWl = value2.Attributes["url"].Value;
             //Console.WriteLine(valueString);
 
             string county = node["county"].InnerText;
             string latitude = node["point_y"].InnerText;
             string longitude = node["point_x"].InnerText;
 
+         
+                dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_, specRegs,siteWl);
+        
 
-            dt.Rows.Add(name, county, longitude, latitude, fish_spec, id_, specRegs,siteWl);
+           
 
             id_++;
+            apu++;
 
 
         }
