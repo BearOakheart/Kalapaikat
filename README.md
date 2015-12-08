@@ -3,7 +3,7 @@
 # 1. Asennus 
 
 
-Aja seuraavat komennot sql palvelimeen, muuta webconfig tiedostosta mahdollisesti tarvittava connection string.
+Kopioi db/kala.txt
 
 
 CREATE TABLE [dbo].[Users] (
