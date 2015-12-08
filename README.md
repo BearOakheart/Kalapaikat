@@ -1,7 +1,7 @@
-# Kalapaikat
+# Kalapaikat Asp.net harjoitustyö
 
 # 1. Asennus 
-Asp.net harjoitustyö
+
 
 Aja seuraavat komennot sql palvelimeen, muuta webconfig tiedostosta mahdollisesti tarvittava connection string.
 
@@ -33,3 +33,15 @@ CREATE TABLE [dbo].[Favourites] (
     PRIMARY KEY CLUSTERED ([Id] ASC),
     FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
 );
+
+# 2. Tietoa ohjelmasta
+
+# 3. Kuvaruutukaappaukset
+
+# 4. Ohjelman tarvitsemat / mukana tulevat tiedostot/tietokannat
+
+# 5. Tiedossa olevat ongelmat bugit sekä jatkokehitysideat
+
+# 6. Mitä opittu, mitkä olivat suurimmat haasteet, mitä kannattaisi tutkia/opiskella lisää jne
+
+# 7. Tekijät, vastuiden ja työmäärän jakautuminen sekä tekijöiden perusteltu ehdotus arvosanaksi
