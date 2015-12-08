@@ -2,10 +2,11 @@
 
 # 1. Asennus 
 
-
+- Cloonaa repo githubista / tai lataa zip 
 - Kopioi DB/DatabaseKala.txt sisältö. 
 - Avaa Visual Studio 
-- Avaa Object server explorer
+- Open Website (Kalapaikat) kansio
+- Avaa SQL Server Object Explorer
 - Tee uusi tietokanta Kala
 - Tee Kala tietokantaan sql query -> Kopio DatabaseKala.txt sisältö queryyn ja päivitä tietokanta (Huom. Create Table users -> insert user -> create table favourites.) 
 - Tarkista että web.config tiedostossa viitataan oikeaan databaseen. (localdb)\ProjectV12 tai Project katso object explorerista mikä on locaalin kannan nimi. (Visual Studio 2013 Projects Visual Studio 2015 ProjectsV12)
