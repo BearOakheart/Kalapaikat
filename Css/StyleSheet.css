@@ -1,7 +1,7 @@
 ﻿body
 {
     font-family: 'lucida grande' ,tahoma,verdana,arial,sans-serif;
-   # background-image: url('../Images/background.jpg') !important;
+    background-image: url('../Images/background.jpg') !important;
 }
 
 body p li ul
