@@ -1,7 +1,21 @@
 # Kalapaikat
+
+# 1. Asennus 
 Asp.net harjoitustyö
 
 Aja seuraavat komennot sql palvelimeen, muuta webconfig tiedostosta mahdollisesti tarvittava connection string.
+
+
+CREATE TABLE [dbo].[Users] (
+    [Id]        INT          IDENTITY (1, 1) NOT NULL,
+    [name]      VARCHAR (50) NOT NULL,
+    [password]  VARCHAR (50) NOT NULL,
+    [user_type] VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+Insert Into Kala.dbo.Users Values ('Admin','Admin','Admin')
+
 
 CREATE TABLE [dbo].[Favourites] (
     [Id]         INT            IDENTITY (1, 1) NOT NULL,
@@ -19,14 +33,3 @@ CREATE TABLE [dbo].[Favourites] (
     PRIMARY KEY CLUSTERED ([Id] ASC),
     FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
 );
-
-
-CREATE TABLE [dbo].[Users] (
-    [Id]        INT          IDENTITY (1, 1) NOT NULL,
-    [name]      VARCHAR (50) NOT NULL,
-    [password]  VARCHAR (50) NOT NULL,
-    [user_type] VARCHAR (50) NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC)
-);
-
-Insert Into Kala.dbo.Users Values ('Admin','Admin','Admin')
