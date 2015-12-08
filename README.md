@@ -50,7 +50,7 @@ CREATE TABLE [dbo].[Favourites] (
 
 # 3. Kuvaruutukaappaukset
 
-[logo]: http://student.labranet.jamk.fi/~G2968/Screenshots/MainWindow.JPG "Logo Title Text 2"
+[Image]: http://student.labranet.jamk.fi/~G2968/Screenshots/MainWindow.JPG
 
 # 4. Ohjelman tarvitsemat / mukana tulevat tiedostot/tietokannat
 
