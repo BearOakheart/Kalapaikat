@@ -50,7 +50,16 @@ CREATE TABLE [dbo].[Favourites] (
 
 # 3. Kuvaruutukaappaukset
 
-[Image]: http://student.labranet.jamk.fi/~G2968/Screenshots/MainWindow.JPG
+![MainWindow]
+![FishingSpotsSearch]
+![Favourites]
+![More]
+
+[MainWindow]: http://student.labranet.jamk.fi/~G2968/Screenshots/MainWindow.JPG
+[Favourites]: http://student.labranet.jamk.fi/~G2968/Screenshots/Favourites.JPG
+[FishingSpotsSearch]: http://student.labranet.jamk.fi/~G2968/Screenshots/FishingSpotsSearch.JPG
+[More]: http://student.labranet.jamk.fi/~G2968/Screenshots/More.JPG
+
 
 # 4. Ohjelman tarvitsemat / mukana tulevat tiedostot/tietokannat
 
