@@ -3,7 +3,11 @@
 # 1. Asennus 
 
 
-Kopioi db/kala.txt
+- Kopioi DB/DatabaseKala.txt sisältö. 
+- Avaa Visual Studio 
+- Avaa Object server explorer
+- Tee uusi tietokanta Kala
+- Tee Kala tietokantaan sql query -> Kopio DatabaseKala.txt sisältö queryyn ja päivitä tietokanta (Huom. Create Table users -> insert user -> create table favourites.) 
 
 
 CREATE TABLE [dbo].[Users] (
