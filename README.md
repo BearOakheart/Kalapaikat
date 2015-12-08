@@ -88,3 +88,8 @@ CREATE TABLE [dbo].[Favourites] (
 Työmäärä jakautui tasaisesti, olimme Mikon kanssa yhteydessä skypessä jatkuvasti kun työtä tehtiin. Keskityin itse ehkä enemmän ohjelman visuaaliseen puoleen ja toiminnallisuuteen, kuten masterpagen käyttöön, css javascript ja sessioiden hallintaan. Olen itse suhteellisen tyytyväinen projektiin, aikaa meni noin 40 tuntia. Eli kun ottaa huomioon, että työtä tehtiin samanaikaisesti niin koko projektiin meni n. 80 henkilötyötuntia.
 
 Tekniikoiden haastavuuden ja käytetyiden tekniikoiden takia ehdotan arvosanaa 4. Ohjelman olisi voinut viimeistellä paremmin, mutta jälleen kerran aika loppui kesken. Viimeistelyt (suosikkien poistaminen, css, kuvarummun häivytys ominaisuus) tosin eivät olisi vieneet kauheasti aikaa. 
+
+### Mikko Kemppinen
+
+Keskityin suurimmaksi osaksi toiminnallisuuden tekoon. XML parsiminen datatableen, datatablen esittämiseen gridviewssä ja niin edelleen. 
+Projekti onnistui yllättävän hyvin omasta mielestäni ja isompia ongelmia ei tullut, muuta kuin attributen hakeminen elementistä. Projekti opetti paljon asp.net ohjelmoimisesta , xml käsittelystä ja tiedon esittämisestä. Ehdotan harjoitustyön arvosanaksi 3, koska emme saaneet kaikkia ominaisuuksia valmiiksi, kuten poistoa suosikeista.
