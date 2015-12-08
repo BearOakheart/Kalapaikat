@@ -59,7 +59,16 @@ CREATE TABLE [dbo].[Favourites] (
 
 - Käyttäjien hallinnointi järjestelmä jolloin Admin pystyy poistamaan ja lisäämään tai muokkaamaan käyttäjiä.
 - Sisällöntuottamisjärjestelmä jolloin Admin pystyy muokkaamaan sivustoa ilman koodaamista, esimerkiksi tuottamaan tekstiä etusivulle muokaamaan otsikoita yms. 
+- Omien suosikkien poistaminen tulisi tehdä.
 
 # 6. Mitä opittu, mitkä olivat suurimmat haasteet, mitä kannattaisi tutkia/opiskella lisää jne
 
+- Opin ainakin henkilökohtaisesti käyttämään asp.netin omia ominaisuuksia kuten master pagea webbi sivuilla, olin aikaisemminkin tehnyt suhteellisen paljon web ohjelmointia, jolloin Asp.netin ominaisuudet kiinnostivat.
+- XML attributen parsiminen tuotti ongelmia, ehkä olisi ollut helpompikin keino, mutta saimme kuitenkin toimimaan.
+- Uusi teknologia web sivujen tuottamiseen tuotti aluksi harmaita hiuksia, koska ajatteli hyvin pitkälle asioita php kokemuksen perusteella.
+
 # 7. Tekijät, vastuiden ja työmäärän jakautuminen sekä tekijöiden perusteltu ehdotus arvosanaksi
+
+### Asmo Korkiatupa
+
+Työmäärä jakautui tasaisesti, olimme Mikon kanssa yhteydessä skypessä jatkuvasti kun työtä tehtiin. Keskityin itse ehkä enemmän ohjelman visuaaliseen puoleen ja toiminnallisuuteen, kuten masterpagen käyttöön, css javascript ja sessioiden hallintaan. Olen itse suhteellisen tyytyväinen projektiin aikaa meni noin 40 tuntia. Eli kun ottaa huomioon että tehtiin samanaikaisesti niin koko projektiin meni n. 80 henkilötyötuntia.
