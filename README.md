@@ -41,9 +41,19 @@ CREATE TABLE [dbo].[Favourites] (
 
 # 2. Tietoa ohjelmasta
 
+- New Yorkin osavaltio tarjoaa ilmaista dataa osavaltion kalapaikoista.
+- Ohjelma hyödyntää tätä avoita dataa ja käyttää xml kantaa, josta etsitään ja suodatetaan tietoa.
+- Näyttää haetun kalapaikan kartalla, tarvittavat kalastusluvat ja tarjoaa esitteen kalapaikasta. 
+- Listaa esiintyvät kalalajit kalapaikalla.
+- Ohjelmasta voi lisätä kalapaikan omiin suosikkeihin, jolloin ne pysyvät kätevästi tietokannassa.
+
 # 3. Kuvaruutukaappaukset
 
 # 4. Ohjelman tarvitsemat / mukana tulevat tiedostot/tietokannat
+
+- xml kansiossa fs.xml
+- Images kansion kuvat ( käytetään ohjelmiston taustana yms.)
+- Tietokanta tulee luoda Asennusohjeiden mukaisesti DB/DatabaseKala.txt tiedostoa apuna käyttäen. 
 
 # 5. Tiedossa olevat ongelmat bugit sekä jatkokehitysideat
 
