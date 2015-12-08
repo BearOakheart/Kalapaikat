@@ -43,7 +43,7 @@ CREATE TABLE [dbo].[Favourites] (
 # 2. Tietoa ohjelmasta
 
 - New Yorkin osavaltio tarjoaa ilmaista dataa osavaltion kalapaikoista.
-- Ohjelma hyödyntää tätä avoita dataa ja käyttää xml kantaa, josta etsitään ja suodatetaan tietoa.
+- Ohjelma hyödyntää tätä avointa dataa ja käyttää xml kantaa, josta etsitään ja suodatetaan tietoa.
 - Näyttää haetun kalapaikan kartalla, tarvittavat kalastusluvat ja tarjoaa esitteen kalapaikasta. 
 - Listaa esiintyvät kalalajit kalapaikalla.
 - Ohjelmasta voi lisätä kalapaikan omiin suosikkeihin, jolloin ne pysyvät kätevästi tietokannassa.
@@ -91,5 +91,5 @@ Tekniikoiden haastavuuden ja käytetyiden tekniikoiden takia ehdotan arvosanaa 4
 
 ### Mikko Kemppinen
 
-Keskityin suurimmaksi osaksi toiminnallisuuden tekoon. XML parsiminen datatableen, datatablen esittämiseen gridviewssä ja niin edelleen. 
+Keskityin suurimmaksi osaksi toiminnallisuuden tekoon. XML parsiminen datatableen, datatablen esittämiseen gridviewssä ja niin edelleen. Työtunteja kertyi saman verran molemmille työläisille.
 Projekti onnistui yllättävän hyvin omasta mielestäni ja isompia ongelmia ei tullut, muuta kuin attributen hakeminen elementistä. Projekti opetti paljon asp.net ohjelmoimisesta , xml käsittelystä ja tiedon esittämisestä. Ehdotan harjoitustyön arvosanaksi 3, koska emme saaneet kaikkia ominaisuuksia valmiiksi, kuten poistoa suosikeista.
