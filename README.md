@@ -57,6 +57,9 @@ CREATE TABLE [dbo].[Favourites] (
 
 # 5. Tiedossa olevat ongelmat bugit sekä jatkokehitysideat
 
+- Käyttäjien hallinnointi järjestelmä jolloin Admin pystyy poistamaan ja lisäämään tai muokkaamaan käyttäjiä.
+- Sisällöntuottamisjärjestelmä jolloin Admin pystyy muokkaamaan sivustoa ilman koodaamista, esimerkiksi tuottamaan tekstiä etusivulle muokaamaan otsikoita yms. 
+
 # 6. Mitä opittu, mitkä olivat suurimmat haasteet, mitä kannattaisi tutkia/opiskella lisää jne
 
 # 7. Tekijät, vastuiden ja työmäärän jakautuminen sekä tekijöiden perusteltu ehdotus arvosanaksi
