@@ -71,4 +71,6 @@ CREATE TABLE [dbo].[Favourites] (
 
 ### Asmo Korkiatupa
 
-Työmäärä jakautui tasaisesti, olimme Mikon kanssa yhteydessä skypessä jatkuvasti kun työtä tehtiin. Keskityin itse ehkä enemmän ohjelman visuaaliseen puoleen ja toiminnallisuuteen, kuten masterpagen käyttöön, css javascript ja sessioiden hallintaan. Olen itse suhteellisen tyytyväinen projektiin aikaa meni noin 40 tuntia. Eli kun ottaa huomioon että tehtiin samanaikaisesti niin koko projektiin meni n. 80 henkilötyötuntia.
+Työmäärä jakautui tasaisesti, olimme Mikon kanssa yhteydessä skypessä jatkuvasti kun työtä tehtiin. Keskityin itse ehkä enemmän ohjelman visuaaliseen puoleen ja toiminnallisuuteen, kuten masterpagen käyttöön, css javascript ja sessioiden hallintaan. Olen itse suhteellisen tyytyväinen projektiin, aikaa meni noin 40 tuntia. Eli kun ottaa huomioon, että työtä tehtiin samanaikaisesti niin koko projektiin meni n. 80 henkilötyötuntia.
+
+Tekniikoiden haastavuuden ja käytetyiden tekniikoiden takia ehdotan arvosanaa 4. Ohjelman olisi voinut viimeistellä paremmin, mutta jälleen kerran aika loppui kesken. Viimeistelyt (suosikkien poistaminen, css, kuvarummun häivytys ominaisuus) tosin eivät olisi vieneet kauheasti aikaa. 
