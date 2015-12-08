@@ -8,6 +8,7 @@
 - Avaa Object server explorer
 - Tee uusi tietokanta Kala
 - Tee Kala tietokantaan sql query -> Kopio DatabaseKala.txt sisältö queryyn ja päivitä tietokanta (Huom. Create Table users -> insert user -> create table favourites.) 
+- Tarkista että web.config tiedostossa viitataan oikeaan databaseen. (localdb)\ProjectV12 tai Project katso object explorerista mikä on locaalin kannan nimi. (Visual Studio 2013 Projects Visual Studio 2015 ProjectsV12)
 
 
 CREATE TABLE [dbo].[Users] (
